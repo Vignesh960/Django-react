@@ -1,0 +1,30 @@
+pip install virtualenv
+python -m venv projectname
+
+projectname\scripts\activate.bat
+pip freeze
+pip list
+copy the pip list from cmd/shell and create requirements.py in ur project 
+		or 
+use pip freeze > requirements.txt
+and paste the pip list in the requirements.py
+
+deactivate
+to install requirements.txt:==>pip install -r requirements.py
+
+pipenv
+=============
+pip install pipenv
+to install packages in pipenv use
+pipenv install packagename
+
+to activate virtualenv
+pipenv shell
+
+pip freeze
+
+to install pipenv requirements
+
+pipenv install -r requirements.txt
+
+to export requirements.txt===>pipenv freeze > requirements.txt
