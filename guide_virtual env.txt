@@ -16,10 +16,11 @@ pipenv
 =============
 pip install pipenv
 to install packages in pipenv use
-pipenv install packagename
+	pipenv install packagename
 
 to activate virtualenv
 pipenv shell
+to check the pip list use pip list
 
 pip freeze
 
@@ -28,3 +29,4 @@ to install pipenv requirements
 pipenv install -r requirements.txt
 
 to export requirements.txt===>pipenv freeze > requirements.txt
+	pipenv requirements > requirements.txt
